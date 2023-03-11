@@ -29,6 +29,10 @@ class About extends Migration
                 'type' => 'TEXT',
                 'null' => true
             ],
+            'year' => [
+                'type' => 'TEXT',
+                'null' => true
+            ],
             'text' => [
                 'type' => 'TEXT',
                 'null' => true

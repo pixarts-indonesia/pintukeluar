@@ -61,3 +61,12 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
+
+# Proses Awal Project
+### Migrate Up
+php spark migrate
+### Migrate Refresh
+php spark migrate:refresh
+### Migrate Seed
+php spark db:seed MainSeeder
+
