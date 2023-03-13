@@ -54,33 +54,47 @@
                 </div>
 
                 <div class="row gy-4">
-
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="card card-bg-one">
-                            <img class="img-icon" src="<?= base_url('assets/icon/cloud-sun.png') ?>" width="40%">
-                            <div class="card-info p-3">
+                        <div class="card">
+                            <div class="header">
+                                <div class="img-box">
+                                    <img class="img-icon" src="<?= base_url('assets/icon/cloud-sun.png') ?>" width="90%">
+                                </div>
+                                <h1 class="title"><?= @$lang->service; ?></h1>
+                            </div>
+                            <div class="content">
                                 <p class="title"><?= @$lang->service_cloud; ?></p>
                             </div>
                         </div>
-                    </div><!-- End Service Item -->
+                    </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="card card-bg-two">
-                            <img class="img-icon" src="<?= base_url('assets/icon/umbrella.png') ?>" width="40%">
-                            <div class="card-info p-3">
+                        <div class="card">
+                            <div class="header">
+                                <div class="img-box">
+                                    <img class="img-icon" src="<?= base_url('assets/icon/umbrella.png') ?>" width="90%">
+                                </div>
+                                <h1 class="title"><?= @$lang->service; ?></h1>
+                            </div>
+                            <div class="content">
                                 <p class="title"><?= @$lang->service_umbrella; ?></p>
                             </div>
                         </div>
-                    </div><!-- End Service Item -->
+                    </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="card card-bg-three">
-                            <img class="img-icon" src="<?= base_url('assets/icon/cloud-lightning.png') ?>" width="40%">
-                            <div class="card-info p-3">
+                        <div class="card">
+                            <div class="header">
+                                <div class="img-box">
+                                    <img class="img-icon" src="<?= base_url('assets/icon/cloud-lightning.png') ?>" width="90%">
+                                </div>
+                                <h1 class="title"><?= @$lang->service; ?></h1>
+                            </div>
+                            <div class="content">
                                 <p class="title"><?= @$lang->service_lightning; ?></p>
                             </div>
                         </div>
-                    </div><!-- End Service Item -->
+                    </div>
 
                 </div>
 

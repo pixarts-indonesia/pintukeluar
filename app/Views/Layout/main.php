@@ -131,7 +131,7 @@
 								<div class="col-sm d-flex mt-2">
 									<a target="_blank" href="https://www.youtube.com/channel/UCxseEbS26x3dKxNDnhQGPTg">
 										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-youtube"></i>
+											<i class="bi bi-youtube" style="color: #FF0000;"></i>
 										</div>
 									</a>
 									<strong class="align-self-center">Youtube</strong>
@@ -139,7 +139,7 @@
 								<div class="col-sm d-flex mt-2">
 									<a target="_blank" href="https://twitter.com/PintuKeluarId">
 										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-twitter"></i>
+											<i class="bi bi-twitter" style="color: #1DA1F2;"></i>
 										</div>
 									</a>
 									<strong class="align-self-center">Twitter</strong>
@@ -147,7 +147,7 @@
 								<div class="col-sm d-flex mt-2">
 									<a target="_blank" href="https://www.tiktok.com/@pintukeluar.id">
 										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-tiktok"></i>
+											<i class="bi bi-tiktok" style="color: #69c9d0;"></i>
 										</div>
 									</a>
 									<strong class="align-self-center">Tiktok</strong>
@@ -155,7 +155,7 @@
 								<div class="col-sm d-flex mt-2">
 									<a target="_blank" href="https://www.facebook.com/profile.php?id=100087929764176">
 										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-facebook"></i>
+											<i class="bi bi-facebook" style="color: #3b5998;"></i>
 										</div>
 									</a>
 									<strong class="align-self-center">Facebook</strong>
@@ -163,7 +163,7 @@
 								<div class="col-sm d-flex mt-2">
 									<a target="_blank" href="https://www.linkedin.com/in/pintukeluarid-a75058257">
 										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-linkedin"></i>
+											<i class="bi bi-linkedin" style="color: #0077B5;"></i>
 										</div>
 									</a>
 									<strong class="align-self-center">Linkedin</strong>
@@ -171,7 +171,7 @@
 								<div class="col-sm d-flex mt-2">
 									<a target="_blank" href="https://www.instagram.com/pintukeluar.id/">
 										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-instagram"></i>
+											<i class="bi bi-instagram" style="color: #C13584;"></i>
 										</div>
 									</a>
 									<strong class="align-self-center">Instagram</strong>
@@ -192,9 +192,14 @@
 			</div>
 
 		</footer>
-		<a href="whatsapp://send?phone=+6283862080888" class="whatsapp-icon">
-			<i class="bi bi-whatsapp"></i>
-		</a>
+		<div class="contact-icons">
+			<a href="mailto:informasi@pintukeluar.id" class="email-icon">
+				<i class="bi bi-envelope-fill"></i>
+			</a>
+			<a href="whatsapp://send?phone=+628123456789" class="whatsapp-icon">
+				<i class="bi bi-whatsapp"></i>
+			</a>
+		</div>
 		<a href="#" class="scroll-top d-flex align-items-center justify-content-center active">
 			<i class="bi bi-arrow-up-short"></i>
 		</a>
