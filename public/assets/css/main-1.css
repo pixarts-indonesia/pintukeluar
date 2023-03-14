@@ -2795,18 +2795,18 @@ section {
 .whatsapp-icon {
   display: block;
   margin-top: 2px;
-  padding: 7px 14px;
-  background-color: #45383b;
+  padding: 0px 14px;
+  /* background-color: #45383b; */
   color: green;
-  border-radius: 5px;
-  font-size: 25px;
+  border-radius: 100px;
+  font-size: 35px;
 }
 
 .email-icon {
   display: block;
-  padding: 7px 14px;
-  background-color: #45383b;
+  padding: 0px 14px;
+  /* background-color: #45383b; */
   color: #ff0000;
-  border-radius: 5px;
-  font-size: 25px;
+  border-radius: 100%;
+  font-size: 35px;
 }

@@ -25,7 +25,7 @@
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row gy-4">
-                <div class="col-lg-6">
+                <div class="col-lg-3">
                     <div class="info-item  d-flex flex-column justify-content-center align-items-center">
                         <i class="bi bi-map"></i>
                         <h3><?= @$lang->address ?></h3>
@@ -33,53 +33,50 @@
                     </div>
                 </div><!-- End Info Item -->
 
-                <div class="col-lg-3 col-md-6">
+                <a href="mailto:informasi@pintukeluar.id" class="col-lg-3 col-md-6">
                     <div class="info-item d-flex flex-column justify-content-center align-items-center">
                         <i class="bi bi-envelope"></i>
                         <h3><?= @$lang->email; ?></h3>
-                        <a href="mailto:informasi@pintukeluar.id">informasi@pintukeluar.id</a>
+                        <p>informasi@pintukeluar.id</p>
                     </div>
-                </div><!-- End Info Item -->
+                </a><!-- End Info Item -->
 
-                <div class="col-lg-3 col-md-6">
+                <a href="tel:6283862080888" class="col-lg-3 col-md-6">
                     <div class="info-item  d-flex flex-column justify-content-center align-items-center">
                         <i class="bi bi-telephone"></i>
                         <h3><?= @$lang->phone; ?></h3>
-                        <a href="tel:6283862080888">+62 838-6208-0888</a>
+                        <p>+62 838-6208-0888</p>
                     </div>
-                </div><!-- End Info Item -->
+                </a><!-- End Info Item -->
+
+                <a class="col-lg-3 col-md-6" href="https://docs.google.com/forms/d/e/1FAIpQLSdZ17RCrBhsK2CXnqYkUWH8gTfoc8CyhdqGXHp83dWjJXdZgQ/viewform?usp=sf_link">
+                    <div>
+                        <div class="info-item  d-flex flex-column justify-content-center align-items-center">
+                            <i class="fas fa-check-square"></i>
+                            <h3><?= "Form"; ?></h3>
+                            <p>
+                                Mitra Bisnis
+                            </p>
+                        </div>
+                    </div><!-- End Info Item -->
+                </a>
             </div>
 
             <div class="row gy-4 mt-1">
-                <div class="col-lg-6 ">
+                <div class="col-lg-12">
                     <iframe src="https://maps.google.com/maps?q=indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
                 </div><!-- End Google Maps -->
-                <div class="col-lg-6">
-                    <form data-aos="fade-up" class="php-email-form">
-                        <div class="row gy-4">
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="<?= @$lang->name; ?> *">
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="mail" placeholder="<?= @$lang->email; ?> *">
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control" placeholder="<?= @$lang->message; ?> *" rows="5"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-12">
-                                <a href="#" class="btn btn-secondary"><?= @$lang->sand; ?></a>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-lg-12">
+                    <iframe 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSfofRRjmxKWhcpZRR80gi6XITBS6QmOy2ZMwpOtX54NSiJwYA/viewform?embedded=true"
+                        width="100%"
+                        height="1000"
+                        frameborder="0"
+                        marginheight="0"
+                        marginwidth="0">
+                    </iframe>
                 </div><!-- End Contact Form -->
             </div>
         </div>
     </section><!-- End Contact Section -->
-
 <?= $this->endSection() ?>
