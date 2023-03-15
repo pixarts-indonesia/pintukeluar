@@ -128,54 +128,42 @@
 						<h4><?= @$lang->social_media; ?></h4>
 						<ul class="social-links">
 							<li style="padding: 0px;" class="row">
-								<div class="col-sm d-flex mt-2">
-									<a target="_blank" href="https://www.youtube.com/channel/UCxseEbS26x3dKxNDnhQGPTg">
-										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-youtube" style="color: #FF0000;"></i>
-										</div>
-									</a>
-									<strong class="align-self-center">Youtube</strong>
-								</div>
-								<div class="col-sm d-flex mt-2">
-									<a target="_blank" href="https://twitter.com/PintuKeluarId">
-										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-twitter" style="color: #1DA1F2;"></i>
-										</div>
-									</a>
-									<strong class="align-self-center">Twitter</strong>
-								</div>
-								<div class="col-sm d-flex mt-2">
-									<a target="_blank" href="https://www.tiktok.com/@pintukeluar.id">
-										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-tiktok" style="color: #69c9d0;"></i>
-										</div>
-									</a>
-									<strong class="align-self-center">Tiktok</strong>
-								</div>
-								<div class="col-sm d-flex mt-2">
-									<a target="_blank" href="https://www.facebook.com/profile.php?id=100087929764176">
-										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-facebook" style="color: #3b5998;"></i>
-										</div>
-									</a>
-									<strong class="align-self-center">Facebook</strong>
-								</div>
-								<div class="col-sm d-flex mt-2">
-									<a target="_blank" href="https://www.linkedin.com/in/pintukeluarid-a75058257">
-										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-linkedin" style="color: #0077B5;"></i>
-										</div>
-									</a>
-									<strong class="align-self-center">Linkedin</strong>
-								</div>
-								<div class="col-sm d-flex mt-2">
-									<a target="_blank" href="https://www.instagram.com/pintukeluar.id/">
-										<div class="d-flex align-items-center justify-content-center mt-2">
-											<i class="bi bi-instagram" style="color: #C13584;"></i>
-										</div>
-									</a>
-									<strong class="align-self-center">Instagram</strong>
-								</div>
+								<a target="_blank" href="https://www.youtube.com/channel/UCxseEbS26x3dKxNDnhQGPTg" class="col-sm d-flex mt-2" style="margin-right: 5px;">
+									<div class="d-flex align-items-center justify-content-center">
+										<i class="bi bi-youtube" style="color: #FF0000; font-size: 15px;"></i>
+									</div>
+									<strong class="align-self-center m-2" style="font-size: 15px;">Youtube</strong>
+								</a>
+								<a target="_blank" href="https://twitter.com/PintuKeluarId" class="col-sm d-flex mt-2" style="margin-right: 5px;">
+									<div class="d-flex align-items-center justify-content-center">
+										<i class="bi bi-twitter" style="color: #1DA1F2; font-size: 15px;"></i>
+									</div>
+									<strong class="align-self-center m-2" style="font-size: 15px;">Twitter</strong>
+								</a>
+								<a target="_blank" href="https://www.tiktok.com/@pintukeluar.id" class="col-sm d-flex mt-2" style="margin-right: 5px;">
+									<div class="d-flex align-items-center justify-content-center">
+										<i class="bi bi-tiktok" style="color: #69c9d0; font-size: 15px;"></i>
+									</div>
+									<strong class="align-self-center m-2" style="font-size: 15px;">Tiktok</strong>
+								</a>
+								<a target="_blank" href="https://www.facebook.com/profile.php?id=100087929764176" class="col-sm d-flex mt-2" style="margin-right: 5px;">
+									<div class="d-flex align-items-center justify-content-center">
+										<i class="bi bi-facebook" style="color: #3b5998; font-size: 15px;"></i>
+									</div>
+									<strong class="align-self-center m-2" style="font-size: 15px;">Facebook</strong>
+								</a>
+								<a target="_blank" href="https://www.linkedin.com/in/pintukeluarid-a75058257" class="col-sm d-flex mt-2" style="margin-right: 5px;">
+									<div class="d-flex align-items-center justify-content-center">
+										<i class="bi bi-linkedin" style="color: #0077B5; font-size: 15px;"></i>
+									</div>
+									<strong class="align-self-center m-2" style="font-size: 15px;">Linkedin</strong>
+								</a>
+								<a target="_blank" href="https://www.instagram.com/pintukeluar.id/" class="col-sm d-flex mt-2" style="margin-right: 5px;">
+									<div class="d-flex align-items-center justify-content-center">
+										<i class="bi bi-instagram" style="color: #C13584; font-size: 15px;"></i>
+									</div>
+									<strong class="align-self-center m-2" style="font-size: 15px;">Instagram</strong>
+								</a>
 							</li>
 						</ul>
 					</div><!-- End footer links column-->
