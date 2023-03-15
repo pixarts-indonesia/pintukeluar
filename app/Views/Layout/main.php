@@ -127,7 +127,7 @@
 					<div class="col-lg-3 col-md-3 footer-links">
 						<h4><?= @$lang->social_media; ?></h4>
 						<ul class="social-links">
-							<li style="padding: 0px;" class="row">
+							<li style="padding: 10px;" class="row">
 								<a target="_blank" href="https://www.youtube.com/channel/UCxseEbS26x3dKxNDnhQGPTg" class="col-sm d-flex mt-2" style="margin-right: 5px;">
 									<div class="d-flex align-items-center justify-content-center">
 										<i class="bi bi-youtube" style="color: #FF0000; font-size: 15px;"></i>

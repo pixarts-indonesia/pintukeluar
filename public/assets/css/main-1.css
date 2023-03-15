@@ -271,7 +271,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 50px;
   margin-right: 6px;
 }
 
@@ -2787,7 +2787,7 @@ section {
 .contact-icons {
   position: fixed;
   z-index: 1;
-  top: 50%;
+  top: 70%;
   right: 10px;
   transform: translateY(-50%);
 }
@@ -2799,7 +2799,7 @@ section {
   /* background-color: #45383b; */
   color: green;
   border-radius: 100px;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .email-icon {
@@ -2808,5 +2808,16 @@ section {
   /* background-color: #45383b; */
   color: #ff0000;
   border-radius: 100%;
-  font-size: 35px;
+  font-size: 40px;
+}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1245px;
+  }
 }

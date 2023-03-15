@@ -55,7 +55,7 @@
                             <i class="fas fa-check-square"></i>
                             <h3><?= "Form"; ?></h3>
                             <p>
-                                Mitra Bisnis
+                                Beriklan
                             </p>
                         </div>
                     </div><!-- End Info Item -->
