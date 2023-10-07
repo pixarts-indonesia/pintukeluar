@@ -16,11 +16,12 @@ RUN apt-get update && apt-get install -y \
     php8.1-bcmath
 
 # Instalasi Node.js versi LTS (contoh: 14.x)
-# RUN apt-get install -y curl && curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
-# RUN apt-get install -y nodejs
-# RUN npm install -g npm@latest
+RUN apt-get install -y curl && curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
+RUN apt-get install -y nodejs
+RUN npm install -g npm@latest
 
 # Instalasi Composer
+RUN apt-get update -y
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Konfigurasi direktori kerja
