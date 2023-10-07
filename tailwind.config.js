@@ -2,7 +2,7 @@
 module.exports = {
     content: ['./resources/views/**/*.blade.php'],
     presets: [],
-    darkMode: 'media', // or 'class'
+    darkMode: 'media', // 'media' or 'class'
     theme: {
         screens: {
             sm: '640px',
@@ -16,6 +16,7 @@ module.exports = {
             current: colors.current,
             transparent: colors.transparent,
             primary: "#9333EA",
+            'text-primary': "#9333EA",
             secondary: "#ff7e33",
             info: "#0C63E7",
             black: colors.black,
