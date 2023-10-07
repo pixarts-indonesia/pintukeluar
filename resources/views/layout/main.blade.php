@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/svg+xml" href="{{ asset('favicon.png') }}" />
         <title>{{ ENV('APP_NAME')}}</title>
 		<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
         <script src="{{ asset('assets/js/app.js') }}"></script>
