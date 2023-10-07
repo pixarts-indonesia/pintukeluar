@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  master:
-    image: master:10.26.2
-    container_name: master
+  pintukeluar:
+    image: pintukeluar
+    container_name: pintukeluar
     build:
       context: docker
       dockerfile: Dockerfile

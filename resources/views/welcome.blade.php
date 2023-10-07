@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Laravel</title>
-        <script src="{{ asset('assets/js/styles.js') }}"></script>
+        <script src="{{ asset('assets/js/app.js') }}"></script>
     </head>
     <body class="bg-white dark:bg-gray-900">
         <header>
@@ -120,22 +120,22 @@
                     </div>
                     <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
                         <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                            <img src="./images/clients/microsoft.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                            <img src="{{ asset('assets/images/clients/microsoft.svg') }}" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
                         </div>
                         <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                        <img src="./images/clients/airbnb.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                        <img src="{{ asset('assets/images/clients/airbnb.svg') }}" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
                         </div>
                         <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
-                        <img src="./images/clients/google.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                        <img src="{{ asset('assets/images/clients/google.svg') }}" class="h-9 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
                         </div>
                         <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                            <img src="./images/clients/ge.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                            <img src="{{ asset('assets/images/clients/ge.svg') }}" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
                         </div>
                         <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
-                            <img src="./images/clients/netflix.svg" class="h-8 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
+                            <img src="{{ asset('assets/images/clients/netflix.svg') }}" class="h-8 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
                         </div>
                         <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                            <img src="./images/clients/google-cloud.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
+                            <img src="{{ asset('assets/images/clients/google-cloud.svg') }}" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
                         </div>
                     </div>
                 </div>
