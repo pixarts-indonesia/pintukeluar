@@ -1,0 +1,45 @@
+version: '3.8'
+services:
+  pintukeluar:
+    image: pintukeluar
+    container_name: pintukeluar
+    build:
+      context: docker
+      dockerfile: Dockerfile
+    ports:
+      - '2180:80'
+    volumes:
+      - .:/app
+    command: >
+      sh -c "cp .env.example .env \
+      && composer install \
+      && php artisan key:generate \
+      && php artisan serve --host=0.0.0.0 --port=80"
+
+  mysql:
+    image: mariadb:10.11
+    environment:
+      - MYSQL_DATABASE=mysql
+      - MYSQL_USER=mysql
+      - MYSQL_PASSWORD=mysql
+      - MYSQL_ROOT_PASSWORD=mysql
+    volumes:
+      - ./docker/database:/docker-entrypoint-initdb.d
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - '2080:80'
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mysql
+      - PMA_USER=mysql
+      - PMA_PASSWORD=mysql
+      - PMA_PORT=3306
+
+  mailcatcher:
+    restart: on-failure
+    image: dockage/mailcatcher:0.9.0
+    ports:
+    - '1080:1080'
+    - '1025:1025'
