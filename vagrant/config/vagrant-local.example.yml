@@ -1,8 +1,3 @@
-# Your personal GitHub token
-github_token: <your-personal-github-token>
-# Read more: https://github.com/blog/1509-personal-api-tokens
-# You can generate it here: https://github.com/settings/tokens
-
 # Base Box
 base_box: "laravel/homestead"
 
@@ -10,20 +5,19 @@ base_box: "laravel/homestead"
 timezone: Asia/Jakarta
 
 # Are we need check box updates for every 'vagrant up'?
-box_check_update: true
+box_check_update: false
 
 # Virtual machine name
-machine_name: laravel
+machine_name: www.pintukeluar.id
 
 # Virtual machine IP
-ip: 192.168.10.100
+ip: 192.168.56.100
 
 # Enable Public Network
 public_network: false
 
 # Public IP
-ip_public: 192.168.10.100
-ip_host: 127.0.0.1
+ip_public: 192.168.56.100
 
 # Virtual machine CPU cores number
 cpus: 1
@@ -34,3 +28,6 @@ memory: 2048
 # PORT List
 port_public: 8000
 port_database: 8025
+
+# Database Name
+databasename: pintukeluar
