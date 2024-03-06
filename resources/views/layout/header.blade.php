@@ -14,10 +14,10 @@
                     <!-- Header top Wrapper End -->
 
                     <!-- Header top Wrapper Start -->
-                    <div class="header-top-btn">
+                    {{-- <div class="header-top-btn">
                         <a href="login.html">Login</a>
                         <a href="register.html">Register</a>
-                    </div>
+                    </div> --}}
                     <!-- Header top Wrapper End -->
 
                 </div>
@@ -36,7 +36,7 @@
 
                     <!-- Header Logo Start -->
                     <div class="header-logo">
-                        <a href="index.html">
+                        <a href="{{ url('/') }}">
                             <h3 class="text-white">Pintukeluar.</h3>
                         </a>
                     </div>
@@ -45,29 +45,30 @@
                     <!-- Header Menu Start -->
                     <div class="primary-menu d-none d-lg-block">
                         <ul class="nav-menu">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li class="menu-item-has-children">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#service">Layanan</a></li>
+                            <li><a href="#why-choose-section">Tentang</a></li>
+                            {{-- <li class="menu-item-has-children">
                                 <a href="#">Layanan</a>
                                 <ul class="sub-menu">
                                     <li><a href="service.html">Motor</a></li>
                                     <li><a href="service-details.html">Mobil</a></li>
                                 </ul>
-                            </li>
-                            <li class="menu-item-has-children">
+                            </li> --}}
+                            {{-- <li class="menu-item-has-children">
                                 <a href="#">Produk</a>
                                 <ul class="sub-menu">
                                     <li><a href="shop-grid.html">Oli</a></li>
                                     <li><a href="shop-left-sidebar.html">Ban</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Blog</a></li>
-                            <li><a href="contact.html">Tentang</a></li>
+                            <li><a href="contact.html">Blog</a></li> --}}
                         </ul>
                     </div>
                     <!-- Header Menu End -->
 
                     <!-- Header Meta Start -->
-                    <div class="header-meta">
+                    {{-- <div class="header-meta">
 
                         <div class="meta-dropdown dropdown">
                             <button class="toggle" data-bs-toggle="dropdown">
@@ -182,7 +183,7 @@
                             </button>
                         </div>
 
-                    </div>
+                    </div> --}}
                     <!-- Header Meta End -->
 
                 </div>
@@ -227,7 +228,7 @@
             <!-- Mobile Menu Start -->
             <div class="mobile-menu-items">
                 <ul class="nav-menu">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="{{ url('/') }}">Home</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Layanan</a>
                         <ul class="sub-menu">
