@@ -8,26 +8,16 @@ timezone: Asia/Jakarta
 box_check_update: false
 
 # Virtual machine name
-machine_name: www.pintukeluar.id
+machine_name: test.pintukeluar.id
 
 # Virtual machine IP
 ip: 192.168.56.100
-
-# Enable Public Network
-public_network: false
-
-# Public IP
-ip_public: 192.168.56.100
 
 # Virtual machine CPU cores number
 cpus: 1
 
 # Virtual machine RAM
 memory: 2048
-
-# PORT List
-port_public: 8000
-port_database: 8025
 
 # Database Name
 databasename: pintukeluar

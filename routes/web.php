@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(array('domain' => env('APP_URL')), function () {
+    Route::get('/', function () {
+        return view('welcome');
+    });
 });
