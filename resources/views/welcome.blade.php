@@ -15,7 +15,7 @@
                         Servis kendaraan anda bisa dimana saja, dikerjakan dengan tanaga ahli profesional.
                         Cuman di pintukeluar
                     </p>
-                    <a href="javasript.void(0)" data-aos="fade-up" data-aos-delay="800"
+                    <a href="javascript.void(0)" data-aos="fade-up" data-aos-delay="800"
                         class="btn btn-custom-01 aos-init aos-animate">Gabung</a>
                 </div>
                 <!-- Slider Section End -->
@@ -92,7 +92,7 @@
                             </div>
                             <!-- About Count End -->
 
-                            <a href="javasript.void(0)" class="btn btn-custom-01">Mulai</a>
+                            <a href="javascript.void(0)" class="btn btn-custom-01">Mulai</a>
 
                         </div>
                         <!-- About Content End -->
@@ -204,7 +204,7 @@
                         <!-- Section Title End -->
                         <p>Silahkan hubungi kami jika kendaraan anda mengalami masalah, kami akan menyelesaikan masalah
                             kendaraan anda</p>
-                        <a href="javasript.void(0)" class="btn btn-custom-01 btn-hover-white">Hubungi</a>
+                        <a href="javascript.void(0)" class="btn btn-custom-01 btn-hover-white">Hubungi</a>
                     </div>
                     <img class="shape" src="{{ asset('assets/images/call-to-action.png') }}" alt="Pintukeluar">
                 </div>
