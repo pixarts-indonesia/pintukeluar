@@ -15,7 +15,7 @@
                         Servis kendaraan anda bisa dimana saja, dikerjakan dengan tanaga ahli profesional.
                         Cuman di pintukeluar
                     </p>
-                    <a href="javascript.void(0)" data-aos="fade-up" data-aos-delay="800"
+                    <a href="javascript:void(0)" data-aos="fade-up" data-aos-delay="800"
                         class="btn btn-custom-01 aos-init aos-animate">Gabung</a>
                 </div>
                 <!-- Slider Section End -->
@@ -92,7 +92,7 @@
                             </div>
                             <!-- About Count End -->
 
-                            <a href="javascript.void(0)" class="btn btn-custom-01">Mulai</a>
+                            <a href="javascript:void(0)" class="btn btn-custom-01">Mulai</a>
 
                         </div>
                         <!-- About Content End -->
@@ -125,8 +125,8 @@
                         <div class="col-lg-4 col-sm-6 pt-2">
                             <!-- Single Service Start -->
                             <div class="single-service aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
-                                <h4 class="title"><a href="javascript.void(0)">Layanan <br> Ganti & Jual Ban</a></h4>
-                                {{-- <a href="javascript.void(0)" class="more">Lean more</a> --}}
+                                <h4 class="title"><a href="javascript:void(0)">Layanan <br> Ganti & Jual Ban</a></h4>
+                                {{-- <a href="javascript:void(0)" class="more">Lean more</a> --}}
                                 <div class="service-icon mt-4">
                                     <img src="{{ asset('assets/icons/tire.svg') }}" alt="{{ env('APP_NAME') }}">
                                 </div>
@@ -136,8 +136,8 @@
                         <div class="col-lg-4 col-sm-6 pt-2">
                             <!-- Single Service Start -->
                             <div class="single-service aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                                <h4 class="title"><a href="javascript.void(0)">Recharge <br> Aki</a></h4>
-                                {{-- <a href="javascript.void(0)" class="more">Lean more</a> --}}
+                                <h4 class="title"><a href="javascript:void(0)">Recharge <br> Aki</a></h4>
+                                {{-- <a href="javascript:void(0)" class="more">Lean more</a> --}}
                                 <div class="service-icon mt-4">
                                     <img src="{{ asset('assets/icons/battery.svg') }}" alt="{{ env('APP_NAME') }}">
                                 </div>
@@ -147,8 +147,8 @@
                         <div class="col-lg-4 col-sm-6 pt-2">
                             <!-- Single Service Start -->
                             <div class="single-service aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                                <h4 class="title"><a href="javascript.void(0)">Layanan <br> Tambah angin</a></h4>
-                                {{-- <a href="javascript.void(0)" class="more">Lean more</a> --}}
+                                <h4 class="title"><a href="javascript:void(0)">Layanan <br> Tambah angin</a></h4>
+                                {{-- <a href="javascript:void(0)" class="more">Lean more</a> --}}
                                 <div class="service-icon mt-4">
                                     <img src="{{ asset('assets/icons/tire.svg') }}" alt="{{ env('APP_NAME') }}">
                                 </div>
@@ -158,8 +158,8 @@
                         <div class="col-lg-6 col-sm-6 mt-5">
                             <!-- Single Service Start -->
                             <div class="single-service aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-                                <h4 class="title"><a href="javascript.void(0)">Layanan <br> Tambal Ban</a></h4>
-                                {{-- <a href="javascript.void(0)" class="more">Lean more</a> --}}
+                                <h4 class="title"><a href="javascript:void(0)">Layanan <br> Tambal Ban</a></h4>
+                                {{-- <a href="javascript:void(0)" class="more">Lean more</a> --}}
                                 <div class="service-icon mt-4">
                                     <img src="{{ asset('assets/icons/tire.svg') }}" alt="{{ env('APP_NAME') }}">
                                 </div>
@@ -169,8 +169,8 @@
                         <div class="col-lg-6 col-sm-6 mt-5">
                             <!-- Single Service Start -->
                             <div class="single-service aos-init aos-animate m-0" data-aos="fade-up" data-aos-delay="600">
-                                <h4 class="title"><a href="javascript.void(0)">Layanan <br> Towing / Derek</a></h4>
-                                {{-- <a href="javascript.void(0)" class="more">Lean more</a> --}}
+                                <h4 class="title"><a href="javascript:void(0)">Layanan <br> Towing / Derek</a></h4>
+                                {{-- <a href="javascript:void(0)" class="more">Lean more</a> --}}
                                 <div class="service-icon mt-4">
                                     <img src="{{ asset('assets/icons/engine.svg') }}" alt="{{ env('APP_NAME') }}">
                                 </div>
@@ -204,7 +204,7 @@
                         <!-- Section Title End -->
                         <p>Silahkan hubungi kami jika kendaraan anda mengalami masalah, kami akan menyelesaikan masalah
                             kendaraan anda</p>
-                        <a href="javascript.void(0)" class="btn btn-custom-01 btn-hover-white">Hubungi</a>
+                        <a href="javascript:void(0)" class="btn btn-custom-01 btn-hover-white">Hubungi</a>
                     </div>
                     <img class="shape" src="{{ asset('assets/images/call-to-action.png') }}" alt="Pintukeluar">
                 </div>
