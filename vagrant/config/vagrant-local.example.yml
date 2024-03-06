@@ -8,10 +8,10 @@ timezone: Asia/Jakarta
 box_check_update: false
 
 # Virtual machine name
-machine_name: test.pintukeluar.id
+machine_name: test.pintukeluar.com
 
 # Virtual machine IP
-ip: 192.168.56.100
+ip: 192.168.56.50
 
 # Virtual machine CPU cores number
 cpus: 1

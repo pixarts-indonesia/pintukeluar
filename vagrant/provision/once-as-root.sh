@@ -56,6 +56,8 @@ sudo sed -i "s|MAIL_HOST=.*|MAIL_HOST=$(echo "$3")|" "$ENV_FILE"
 service mysql restart
 echo "Done!"
 
+export $(grep -v '^#' "$ENV_FILE" | xargs)
+
 echo "Change to php8.1"
 sudo update-alternatives --set php /usr/bin/php8.1
 echo "Done Change to php8.1!"
@@ -70,6 +72,6 @@ service mysql restart
 echo "Done!"
 
 echo "Migrate DB"
-php /app/artisan migrate --seed
+php /app/artisan migrate:fresh --seed
 echo "Done!"
 #End app configuration

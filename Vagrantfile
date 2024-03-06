@@ -7,9 +7,9 @@ config = {
 }
 
 domains = {
-  frontend: 'www.test.pintukeluar.id',
-  backend: 'admin.test.pintukeluar.id',
-  api: 'api.test.pintukeluar.id'
+  frontend: 'www.test.pintukeluar.com',
+  backend: 'admin.test.pintukeluar.com',
+  api: 'api.test.pintukeluar.com'
 }
 
 # copy config from example if local config not exists
