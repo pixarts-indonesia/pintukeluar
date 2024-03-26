@@ -1,0 +1,20 @@
+<svg version="1.0"
+    xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" viewBox="0 0 512 512">
+    <!-- Body -->
+    <rect x="50" y="150" width="400" height="200" fill="#0046e2" />
+
+    <!-- Cabin -->
+    <rect x="100" y="100" width="200" height="100" fill="#ffffff" />
+
+    <!-- Boom -->
+    <rect x="280" y="50" width="20" height="100" fill="#ffffff" />
+
+    <!-- Hook -->
+    <circle cx="290" cy="40" r="5" fill="#333333" />
+
+    <!-- Wheels -->
+    <circle cx="130" cy="350" r="30" fill="#333333" />
+    <circle cx="230" cy="350" r="30" fill="#333333" />
+    <circle cx="330" cy="350" r="30" fill="#333333" />
+    <circle cx="430" cy="350" r="30" fill="#333333" />
+</svg>
