@@ -1,0 +1,23 @@
+# Base Box
+base_box: "laravel/homestead"
+
+# Guest OS timezone
+timezone: Asia/Jakarta
+
+# Are we need check box updates for every 'vagrant up'?
+box_check_update: false
+
+# Virtual machine name
+machine_name: test.pintukeluar.com
+
+# Virtual machine IP
+ip: 192.168.56.50
+
+# Virtual machine CPU cores number
+cpus: 1
+
+# Virtual machine RAM
+memory: 2048
+
+# Database Name
+databasename: pintukeluar
