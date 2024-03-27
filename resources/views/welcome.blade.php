@@ -155,7 +155,7 @@
                             </div>
                             <!-- Single Service End -->
                         </div>
-                        <div class="col-lg-6 col-sm-6 mt-5">
+                        <div class="col-lg-4 col-sm-6 pt-2">
                             <!-- Single Service Start -->
                             <div class="single-service aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
                                 <h4 class="title"><a href="javascript:void(0)">Layanan <br> Tambal Ban</a></h4>
@@ -166,13 +166,28 @@
                             </div>
                             <!-- Single Service End -->
                         </div>
-                        <div class="col-lg-6 col-sm-6 mt-5">
+                        <div class="col-lg-4 col-sm-6 pt-5">
                             <!-- Single Service Start -->
                             <div class="single-service aos-init aos-animate m-0" data-aos="fade-up" data-aos-delay="600">
                                 <h4 class="title"><a href="javascript:void(0)">Layanan <br> Towing / Derek</a></h4>
                                 {{-- <a href="javascript:void(0)" class="more">Lean more</a> --}}
                                 <div class="service-icon mt-4">
                                     <img src="{{ asset('assets/icons/engine.svg') }}" alt="{{ env('APP_NAME') }}">
+                                </div>
+                            </div>
+                            <!-- Single Service End -->
+                        </div>
+                        <div class="col-lg-4 col-sm-6 pt-2">
+                            <!-- Single Service Start -->
+                            <div class="single-service aos-init aos-animate m-0" data-aos="fade-up" data-aos-delay="600">
+                                <h4 class="title">
+                                    <a href="{{ env('CONSULTATION_URL') }}" target="_blank">
+                                        Layanan <br> Konsultasi
+                                    </a>
+                                </h4>
+                                {{-- <a href="javascript:void(0)" class="more">Lean more</a> --}}
+                                <div class="service-icon mt-4">
+                                    <img src="{{ asset('assets/icons/broker.png') }}" alt="{{ env('APP_NAME') }}">
                                 </div>
                             </div>
                             <!-- Single Service End -->
